@@ -1,6 +1,6 @@
 import sqlite3
 
-def get_my_records():
+def get_my_friends():
     connection = sqlite3.connect(database="database.db")
     cursor = connection.cursor()
 
@@ -12,4 +12,4 @@ def get_my_records():
     return result
 
 if __name__ == '__main__':
-    print(get_my_records())
+    print(get_my_friends())
