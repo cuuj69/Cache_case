@@ -8,6 +8,7 @@ def get_my_records():
     result = cursor.fetchall()
 
     cursor.close()
+    connection.close()
     return result
 
 if __name__ == '__main__':
