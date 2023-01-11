@@ -1,1 +1,4 @@
 redis-cli FLUSHDB to clear all keys
+
+TTL is the time left
+
